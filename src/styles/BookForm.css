@@ -1,0 +1,40 @@
+.book-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 5rem;
+    width: 40vw;
+    height: 30vh;
+    background-color:rgba(211, 175, 83, 0.976);
+    border-radius: 20px;
+
+    -webkit-box-shadow: 11px 6px 27px 4px rgba(0,0,0,0.72);
+    -moz-box-shadow: 11px 6px 27px 4px rgba(0,0,0,0.72);
+    box-shadow: 11px 6px 27px 4px rgba(0,0,0,0.72);
+}
+
+#submit-button {
+    margin-top: 2rem;
+    background-color:coral;
+    color:azure;
+    width: 50%;
+}
+
+label{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+input{
+    width: 70%;
+    height: 30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+    padding-left: 10px;
+}
